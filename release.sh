@@ -20,4 +20,4 @@ curl -X POST --fail 'https://spark-packages.org/api/submit-release' \
   -F "version=$VERSION" \
   -F "license_id=$LICENSE" \
   -F "name=venikkin/spark-packages-test" \
-  -F "artifact_zip=@$PATH_TO_PACKAGE_FILE"
+  -F "artifact_zip=@$PATH_TO_PACKAGE_FILE;type=application/zip"
