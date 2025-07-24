@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.venikkin</groupId>
     <packaging>pom</packaging>
-    <version>0.0.4</version>
+    <version>0.0.5</version>
     <artifactId>spark-packages-test</artifactId>
 
     <properties>
@@ -79,7 +79,7 @@
                     </execution>
                 </executions>
                 <!--configuration>
-                    <sparkPackagesUploadUri>http://localhost:8080/test</sparkPackagesUploadUri>
+                    <sparkPackagesUploadUri>http://localhost:8080/api/submit-release</sparkPackagesUploadUri>
                 </configuration-->
             </plugin>
         </plugins>
