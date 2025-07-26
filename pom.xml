@@ -78,9 +78,11 @@
                         </goals>
                     </execution>
                 </executions>
-                <!--configuration>
-                    <sparkPackagesUploadUri>http://localhost:8080/api/submit-release</sparkPackagesUploadUri>
-                </configuration-->
+                <configuration>
+                    <githubOrganizationName>venikkin</githubOrganizationName>
+                    <license>Apache-2.0</license>
+                    <!--sparkPackagesUploadUri>http://localhost:8080/api/submit-release</sparkPackagesUploadUri-->
+                </configuration>
             </plugin>
         </plugins>
     </build>
